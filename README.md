@@ -1,5 +1,3 @@
-####refer
-https://redux.js.org/tutorials/essentials/part-7-rtk-query-basics#:~:text=RTK%20Query%20Overview%E2%80%8B,data%20fetching%20%26%20caching%20logic%20yourself.
 
 # Learning React Tool Kit Query (RTK Query)
 
@@ -20,6 +18,10 @@ The Redux Toolkit core APIs do not change any of the basic data flow in a Redux 
 However, when you use RTK Query, there is a mindset shift that happens. We're no longer thinking about "managing state" per se. Instead, we now think about "managing cached data". Rather than trying to write reducers ourselves, we're now going to focus on defining "where is this data coming from?", "how should this update be sent?", "when should this cached data be re-fetched?", and "how should the cached data be updated?". How that data gets fetched, stored, and retrieved becomes implementation details we no longer have to worry about.
 
 We'll see how this mindset shift applies as we continue
+
+####refer
+https://redux.js.org/tutorials/essentials/part-7-rtk-query-basics#:~:text=RTK%20Query%20Overview%E2%80%8B,data%20fetching%20%26%20caching%20logic%20yourself.
+
 
 
 
