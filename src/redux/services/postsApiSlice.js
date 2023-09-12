@@ -8,8 +8,8 @@ export const postsApi = createApi({
     // baseUrl: "https://jsonplaceholder.typicode.com/",
     baseUrl: "https://649422600da866a953674058.mockapi.io/",
   }),
-  //query - get endpoints
-  //mutation - post,put,delete endpoints
+  //query method for - get endpoints
+  //mutation method for - post,put,delete endpoints
   endpoints: (builder) => ({
     getAllPosts: builder.query({
       query: () => ({ url: "posts", method: "GET" }),

@@ -37,7 +37,7 @@ function App() {
       </header>
       <main>
         {isLoading ? <p>loading...</p> : null}
-        {isError ? <p>Error in fetching </p> : null}
+        {isError ? <p>Error in fetching : {error.originalStatus}</p> : null}
         {isSuccess
           ? posts?.map((post) => <Post key={post.id} data={post} />)
           : "No Posts"}
